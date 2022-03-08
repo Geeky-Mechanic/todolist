@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://jaychamp:@cluster0.cwe88.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://jaychamp:Alex181818@cluster0.cwe88.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
 //create the schema for processing list items
 const itemsSchema = new Schema({
   name: {
